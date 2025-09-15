@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>S-class: AI 학생부 종합전형 솔루션</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand': {
+                DEFAULT: '#9333ea', // purple-600
+                '600': '#7e22ce', // purple-700
+                '700': '#6b21a8', // purple-800
+              },
+              'brand-light': '#f5f3ff', // violet-100
+              'accent': {
+                DEFAULT: '#f472b6', // pink-400
+                'light': '#fce7f3' // pink-100
+              },
+              'accent-blue': {
+                DEFAULT: '#3b82f6', // blue-500
+                'light': '#dbeafe', // blue-100
+              },
+              'accent-green': {
+                  DEFAULT: '#22c55e', // green-500
+                  'light': '#dcfce7', // green-100
+              },
+            },
+            fontFamily: {
+              sans: ['"Pretendard"', 'sans-serif'],
+            },
+          }
+        }
+      }
+    </script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<script type="importmap">
+{
+  "imports": {
+    "react/": "https://esm.sh/react@^19.1.1/",
+    "react": "https://esm.sh/react@^19.1.1",
+    "react-dom/": "https://esm.sh/react-dom@^19.1.1/"
+  }
+}
+</script>
+</head>
+<body>
+<div id="root"></div>
+<script type="module" src="/index.tsx"></script>
+</body>
+</html>
