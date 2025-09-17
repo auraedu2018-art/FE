@@ -197,7 +197,7 @@ const InterviewApplicationPage: React.FC<InterviewApplicationPageProps> = ({ pro
                             className="inline-flex items-center justify-center gap-2 text-base text-slate-700 hover:text-brand font-semibold"
                         >
                             <ChatIcon className="w-5 h-5" />
-                            <span className="text-lg">신청서 작성 중 궁금한 점은 오픈채팅으로 문의하세요.</span>
+                            <span className="text-lg">신청서 작성 중 궁금한 점은 오픈채팅으로 문의하세요. (클릭시 이동)</span>
                         </a>
                     </div>
                 </div>

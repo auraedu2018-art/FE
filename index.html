@@ -38,6 +38,38 @@
       }
     </script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.min.css" />
+<style>
+html {
+scroll-behavior: smooth;
+}
+.scroll-reveal {
+opacity: 0;
+transform: translateY(30px);
+transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+.scroll-reveal.visible {
+opacity: 1;
+transform: translateY(0);
+}
+.gradient-text {
+background: linear-gradient(90deg, #2563EB, #3B82F6);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+}
+/* Custom styles for details/summary accordion */
+details > summary {
+list-style: none;
+}
+details > summary::-webkit-details-marker {
+display: none;
+}
+@keyframes scroll-up {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-50%); }
+}
+</style>
 <script type="importmap">
 {
   "imports": {

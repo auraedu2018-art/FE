@@ -229,11 +229,10 @@ export const INTERVIEW_PRODUCTS: InterviewProduct[] = [
         type: 'purchase',
         icon: ShieldCheckIcon,
         features: [
-            '1회차: 수업 + 연습 자습 + 모의 전형',
-            '2회차: 연습 자습 + 모의 전형',
-            '등원 시 모의전형 포함 4시간 자습 가능',
-            '강의 포함',
-            '배경자료집 포함',
+            '1회차: 수업 + 연습 지도 + 모의 전형',
+            '2회차: 연습 지도 + 모의 전형',
+            '모의전형 포함 회당 4시간 지도',
+            '전략 강의 및 배경자료집 포함',
         ],
     },
     {
@@ -244,11 +243,9 @@ export const INTERVIEW_PRODUCTS: InterviewProduct[] = [
         type: 'purchase',
         icon: AcademicCapIcon,
         features: [
-            '강연 + 연습자습 + 모의전형',
-            '등원 시 모의전형 포함 4시간',
-            '개인별 면접 레포트 제공',
-            '강의 포함',
-            '배경자료집 포함',
+            '강연 + 연습지도 + 모의전형 (총 4시간)',
+            '개인별 심층 면접 레포트 제공',
+            '전략 강의 및 배경자료집 포함',
         ],
     },
     {
@@ -259,10 +256,9 @@ export const INTERVIEW_PRODUCTS: InterviewProduct[] = [
         type: 'purchase',
         icon: DocumentTextIcon,
         features: [
-            '학생부 철저 분석 및 복원/보강',
+            '학생부 심층 분석 및 복원/보강',
             '개인별 맞춤 모의면접 질문 제공',
-            '강의 포함',
-            '배경자료집 포함',
+            '핵심 전략 강의 및 자료집 포함',
         ],
     },
     {
@@ -273,9 +269,9 @@ export const INTERVIEW_PRODUCTS: InterviewProduct[] = [
         icon: StarIcon,
         features: [
             '1:1 맞춤 지도',
-            '면접 자신 있을 때까지 지도',
+            '합격 자신감 생길 때까지 지도',
             '기출/예상문제 및 최신이슈 자료집',
-            '학생부기반 면접용 레포트 제공',
+            '학생부 기반 심층 레포트 제공',
         ],
     },
     {
@@ -286,7 +282,7 @@ export const INTERVIEW_PRODUCTS: InterviewProduct[] = [
         type: 'purchase',
         icon: BookOpenIcon,
         features: [
-            'MBC기자출신 원장 직강',
+            'MBC기자출신 원장 강의 영상',
             '면접 합격 전략 핵심 포인트',
             '온라인 VOD 제공',
         ],
@@ -385,7 +381,7 @@ export const PROGRAM_SHOWCASE_DATA: ProgramShowcaseItem[] = [
     { category: '로드맵', title: '선배 로드맵', description: '합격 선배의 길 따라가기', icon: AcademicCapIcon, color: 'green' },
     { category: '탐구보고서 계획표', title: '탐구보고서', description: '심화 탐구 주제 찾기', icon: BookOpenIcon, color: 'pink' },
     { category: '학생부 면접', title: '학생부 면접', description: 'AI 기반 면접 완벽 대비', icon: LightBulbIcon, color: 'blue' },
-    { category: '차학기 포트폴리오', title: '차학기 플랜', description: '다음 학기 활동 설계', icon: CpuChipIcon, color: 'purple' },
+    { category: '차학기 플랜', title: '차학기 플랜', description: '다음 학기 활동 설계', icon: CpuChipIcon, color: 'purple' },
     { category: '온라인 강의', title: '온라인 강의', description: '핵심 개념 & 작성법 강의', icon: CodeBracketIcon, color: 'pink' },
     { category: '전체', title: '강의 전체보기', description: '모든 강의 둘러보기', icon: SquaresIcon, color: 'green' }
 ];
